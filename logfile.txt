@@ -1,0 +1,70 @@
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'origin' in 'where clause'
+Error: ER_BAD_FIELD_ERROR: Unknown column 'origin' in 'where clause'
+Error: ER_BAD_FIELD_ERROR: Unknown column 'origin' in 'where clause'
+Error: ER_BAD_FIELD_ERROR: Unknown column 'origin' in 'where clause'
+Error: ER_BAD_FIELD_ERROR: Unknown column 'origin' in 'where clause' ----- sql: SELECT * FROM users WHERE usertype = 'admin' AND adminkey = 'llaherge59PSWPDgedzx234' AND origin = 'localhost'
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 404
+Error: Response Status : 404
+Error: Response Status : 404
+Error: Response Status : 404
+Error: Response Status : 404
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+Error: Response Status : 400
+[object Object]
+undefined
+undefined
+Item amount must add up to specified amount subtotal (or total if amount details not specified)
+ paypalItem amount must add up to specified amount subtotal (or total if amount details not specified)
+ paypalItem amount must add up to specified amount subtotal (or total if amount details not specified)
+ paypalItem amount must add up to specified amount subtotal (or total if amount details not specified)
+ paypalItem amount must add up to specified amount subtotal (or total if amount details not specified)
+ paypalItem amount must add up to specified amount subtotal (or total if amount details not specified)
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: ER_EMPTY_QUERY: Query was empty
+Error: read ECONNRESET ----- sql: undefined
+Error: getaddrinfo ENOTFOUND premium173.web-hosting.com:2083 ----- sql: undefined
+Error: getaddrinfo ENOTFOUND https://premium173.web-hosting.com:2083/phpmyadmin ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: Cannot enqueue Query after fatal error. ----- sql: undefined
+Error: Cannot enqueue Query after fatal error. ----- sql: undefined
+Error: Cannot enqueue Query after fatal error. ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined
+Error: read ECONNRESET ----- sql: undefined

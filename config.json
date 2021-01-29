@@ -1,0 +1,9 @@
+{
+    "paypal": {
+        "mode": "sandbox",
+        "client_id": "",
+        "client_secret": "",
+        "return_url": "http://localhost:8000/planpayment/success",
+        "cancel_url": "http://localhost:8000/planpayment/cancel"
+    }
+}

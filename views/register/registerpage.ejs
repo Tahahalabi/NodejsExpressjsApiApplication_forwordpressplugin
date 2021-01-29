@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PayPal Node App</title>
+</head>
+<body>
+  <h1>Dashboard Certification Plugin</h1>
+  <h2>Buy For $50.00</h2>
+
+  <!-- <%if (link != '') { %>
+    <script>window.location.href = '<%- link %>';</script>
+  <% } %> -->
+
+  <form action="/registration/pay" method="post" id="registerform">
+    <input type="hidden" name="username" value="taha" >
+    <input type="hidden" name="email" value="tahahalabi5599@gmail.com" >
+    <input type="hidden" name="password" value="taha%&taha" >
+    <input type="hidden" name="domain" value="localhost" >
+    <input type="submit" value="Buy">
+  </form>
+
+  <script src="/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/assets/js/jquery.for.min.js"></script>
+  <script>
+        $('#registerform').ajaxForm(function(res) {
+            window.location.href = res;
+       });
+  </script>
+</body>
+</html>
