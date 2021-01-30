@@ -8,18 +8,18 @@ async function main(email, subject, message) {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "wpusercertificate.com",
+    host: "",
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: 'taha@wpusercertificate.com', // generated ethereal user
-      pass: 'la%^&^560LAPQtahMQ%^&', // generated ethereal password
+      user: '', // generated ethereal user
+      pass: '', // generated ethereal password
     },
   });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: 'taha@wpusercertificate.com', // sender address
+    from: '', // sender address
     to: email, // list of receivers
     subject: subject, // Subject line
     html: message, // html body
